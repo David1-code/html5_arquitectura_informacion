@@ -62,6 +62,21 @@
     <li><a href="https://www.nippon.com/es/japan-topics/g02319/">Los autos deportivos japoneses de los 90: un atractivo global</a></li>
   </ul>
 </aside>
+
+<form action="/enviar" method="post">
+  <fieldset style="display: flex;flex-direction: column;">
+    <legend>Información personal</legend>
+    <label for="nombre">Nombre completo:</label>
+    <input type="text" id="nombre" required/>
+    <label for="correo">Correo electrónico:</label>
+    <input type="email" id="correo" required/>
+    <label for="Asunto"> Asunto: </label>
+    <input type="text" id="Asunto" required/>
+    <label for="mensaje">Mensaje: </label>
+    <textarea  id="mensaje" required rows="5"></textarea>
+
+  </fieldset>
+</form>
 </body>
 <footer>
   <h3>Contacto</h3>
